@@ -1,0 +1,25 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.buttons {
+  font-size: large;
+  background-color: green;
+  color: #ffffff;
+  margin: 5px 5px 5px 5px;
+}
+
+.dog-img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+  margin: 5px 5px 5px 5px;
+}
+
+.joke-content {
+  margin: 5px 5px 5px 10px;
+}
