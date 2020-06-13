@@ -1,0 +1,55 @@
+.App {
+  background-color: #fdfdff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3,
+h4 {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.weather-box {
+  border: 2px solid black;
+  margin: 5px 0 5px 0;
+  padding-left: 10px;
+}
+
+.search-btn {
+  color: black;
+  background-color: darkgray;
+  font-size: large;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.search-input {
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: larger;
+}
+
+.back-btn {
+  color: black;
+  background-color: darkgray;
+  font-size: large;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: auto;
+  display: flex;
+}
+
+.chart-box {
+  align-items: center;
+}
